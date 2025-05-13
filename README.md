@@ -42,6 +42,7 @@ If you don't have an account, register on [HCL AppScan on Cloud (ASoC)](https://
 name: "HCL AppScan SAST"
 on:
   workflow_dispatch
+  #pull_request
 jobs:
   scan:
     runs-on: ubuntu-latest
