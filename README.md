@@ -1,7 +1,7 @@
-# HCL AppScan SAST Github Action
+# HCL AppScan on Cloud SAST and SCA GitHub Action Scan
 Your code is better and more secure with HCL AppScan.
 
-The HCL AppScan SAST Github Action enables you to run static analysis security testing (SAST) and software composition analysis (SCA) against the files in your repository. The SAST scan identifies security vulnerabilities in your code and the SCA scan identifies vulnerabilities in your dependencies. Results are stored in AppScan on Cloud or AppScan 360.
+The HCL AppScan SAST/SCA GitHub Action Scan enables you to run static analysis security testing (SAST) and software composition analysis (SCA) against the files in your repository. The SAST scan identifies security vulnerabilities in your code and the SCA scan identifies vulnerabilities in your dependencies. Results are stored in AppScan on Cloud or AppScan 360.
 
 # Usage
 ## Register
