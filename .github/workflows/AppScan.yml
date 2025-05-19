@@ -1,4 +1,4 @@
-name: "HCL AppScan SAST"
+name: "HCL AppScan on Cloud SAST and SCA Scan"
 on:
   workflow_dispatch
 jobs:
