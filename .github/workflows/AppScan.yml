@@ -1,6 +1,6 @@
-name: "HCL AppScan SAST"
+name: "HCL AppScan on Cloud SAST and SCA Scan"
 on:
-  pull_request
+  workflow_dispatch
 jobs:
   scan:
     runs-on: ubuntu-latest
