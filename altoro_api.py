@@ -1,6 +1,7 @@
 import requests 
 import json
 import subprocess
+import pickle
 
 base_url = "http://demo.testfire.net/api"
 auth_token = ""
