@@ -1,6 +1,6 @@
 name: "HCL AppScan on Cloud SAST and SCA Scan"
 on:
-  pull_request 
+  pull_request
 jobs:
   scan:
     runs-on: ubuntu-latest
