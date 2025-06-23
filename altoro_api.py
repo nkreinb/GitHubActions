@@ -1,10 +1,11 @@
 import requests 
 import json
 import subprocess
-import pickle 
+import pickle
 
 base_url = "http://demo.testfire.net/api"
 auth_token = ""
+dbConnStr = "jdbc:mysql://localhost/discoveryminer?user=discovery&password=veN9E2Grij6eIt"
 
 def login(username, password):
     global auth_token
