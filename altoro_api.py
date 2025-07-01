@@ -6,7 +6,7 @@ import pickle
 base_url = "http://demo.testfire.net/api"
 auth_token = ""
 
-secret = "jdbc:mysql://localhost/discoveryminer?user=discovery&password=veN9E2Grij6eIt" 
+test = "jdbc:mysql://localhost/discoveryminer?user=discovery&password=veN9E2Grij6eIt" 
 
 def login(username, password):
     global auth_token
