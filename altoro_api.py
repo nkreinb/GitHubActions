@@ -8,6 +8,12 @@ auth_token = ""
 
 test = "jdbc:mysql://localhost/discoveryminer?user=discovery&password=veN9E2Grij6eIt" 
 
+# VULNERABLE: API key is hardcoded in the script
+API_KEY = "sk_live_77x8a9b12c" 
+
+def fetch_data():
+    headers = {"Authorization": f"Bearer {API_KEY}"}
+
 def login(username, password):
     global auth_token
     data = {
